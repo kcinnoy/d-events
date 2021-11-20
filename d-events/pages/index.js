@@ -1,11 +1,12 @@
-import { Button } from 'semantic-ui-react'
+import { Button } from 'semantic-ui-react';
+import Layout from '../components/Layout';
 
-export default function Home() {
+export default function HomePage() {
 
     return (
-    <div>
+    <Layout>
       <h1>Home</h1>
     
-    </div>
+    </Layout>
   )
 }
