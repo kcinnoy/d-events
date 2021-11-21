@@ -6,10 +6,8 @@ export default function Navbar() {
     return (
         <Menu inverted fixed='top'>
             <Container>
-                <Link href='/'>
-                    <a>
-                        <Menu.Item header>D-events</Menu.Item>
-                    </a>
+                <Link href='/' passHref>
+                        <Menu.Item as='a' header>D-events</Menu.Item>
                 </Link>
             </Container>
         </Menu>
