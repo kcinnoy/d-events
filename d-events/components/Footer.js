@@ -1,4 +1,4 @@
-import styles from '../styles/Footer.module.css';
+import styles from '@/styles/Footer.module.css';
 import { Menu, Container, Button, Header, Grid, List } from 'semantic-ui-react';
 import Link from 'next/link';
 
